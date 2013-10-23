@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+	default-lazy-init="true">
 
-	<bean id="homerEmbeddedService" class="de.hsw.konsens.homer.service.HomerService"></bean>
-	<bean id="homerWebService" class="de.hsw.konsens.homer.service.HomerService"></bean>
+	<bean id="homerEmbeddedService" class="de.hsw.konsens.homer.service.HomerService" autowire="byType" />
+	
+	<bean id="homerWebService" class="de.hsw.konsens.homer.service.HomerService" />
+
+	<bean id="homer_parser" class="de.hsw.konsens.homer.core.parser.HomerParser" autowire="byType" />
+
+	<!-- Wrapper for elasticsearch (http://www.elasticsearch.org/) -->
+	<bean id="elasticsearch_local" class="de.hsw.konsens.homer.core.searchengine.impl.ElasticsearchLocalNode" />
+
+	<!-- SpEL Parser (http://docs.spring.io/spring/docs/3.0.x/reference/expressions.html) -->
+	<bean id="spel_parser" class="org.springframework.expression.spel.standard.SpelExpressionParser" />
+
+	<!-- SpEL ParserContext for ${ } -->
+	<bean id="spel_parser_context" class="org.springframework.expression.common.TemplateParserContext">
+		<constructor-arg value="${" />
+		<constructor-arg value="}" />
+	</bean>
+
+	<!-- SpEL EvaluationContext with Implicit method execution (http://docs.spring.io/spring/docs/3.0.x/reference/expressions.html) -->
+	<bean id="spel_evaluation_context" class="org.springframework.expression.spel.support.StandardEvaluationContext">
+		<constructor-arg ref="el_commands" />
+	</bean>
+
+	<bean id="el_commands" class="de.hsw.konsens.homer.core.parser.commands">
+		<constructor-arg ref="sail_repository" />
+	</bean>
 
 	<!-- OpenRDF Sesame HTTPRepository (http://www.openrdf.org/) -->
 	<bean id="http_repository" class="org.openrdf.repository.http.HTTPRepository">

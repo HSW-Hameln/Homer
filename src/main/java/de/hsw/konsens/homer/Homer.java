@@ -2,23 +2,22 @@ package de.hsw.konsens.homer;
 
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 import de.hsw.konsens.homer.service.HomerService;
 
 public class Homer {
 	
-	public enum Webservice {
-		NONE,REST,
+	public enum Access {
+		LOCAL,REST,
 	}
 
 	static FileSystemXmlApplicationContext spring = new FileSystemXmlApplicationContext("beans.xml");
 	
-	public static HomerService startHomer(Webservice ws){
+	public static HomerService startHomer(Access ws){
 		switch (ws) {
-		case NONE:
+		case LOCAL:
 			return (HomerService) spring.getBean("homerEmbeddedService");
 		case REST:
-			throw new NotImplementedException();
+			return (HomerService) spring.getBean("homerEmbeddedService");
 		default:
 			throw new IllegalArgumentException("The value "+ws+" is unknown");
 		}
@@ -31,7 +30,7 @@ public class Homer {
 	 */
 	public static void main(String[] args) {
 		if (args.length == 0) {
-			startHomer(Webservice.REST);
+			startHomer(Access.REST);
 		}
 	}
 }

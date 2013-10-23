@@ -1,29 +1,24 @@
 package de.hsw.konsens.homer;
 
+import org.springframework.beans.factory.BeanCreationException;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 
-import de.hsw.konsens.homer.client.HomerClient;
 import de.hsw.konsens.homer.service.HomerService;
 
 public class StartupTestEmbedded {
 
 	HomerService homer;
 
+	static FileSystemXmlApplicationContext spring;
+	
 	@BeforeClass
-	public void beforeTest() {
-
-	}
-
-	@Test
-	public void embeddedTest() {
-		homer = Homer.startHomer(Homer.Webservice.NONE);
-	}
-
-	@Test(dependsOnMethods = "embeddedTest")
-	public void clientTest() {
-		HomerClient client = new HomerClient();
-		client.setService(homer);
-		client.status();
+	public void beforeClass() {
+		try{
+			spring =  new FileSystemXmlApplicationContext("beans.xml");
+			homer = (HomerService) spring.getBean("homerEmbeddedService");
+		}catch (BeanCreationException e) {
+			
+		}
 	}
 }
