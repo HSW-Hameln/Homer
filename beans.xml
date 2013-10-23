@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="homerEmbeddedService" class="de.hsw.konsens.homer.service.HomerService"></bean>
+	<bean id="homerWebService" class="de.hsw.konsens.homer.service.HomerService"></bean>
+
+	<!-- OpenRDF Sesame HTTPRepository (http://www.openrdf.org/) -->
+	<bean id="http_repository" class="org.openrdf.repository.http.HTTPRepository">
+		<!-- Address and Name of sesame repository -->
+		<constructor-arg value="http://localhost:8080/openrdf-sesame" />
+		<constructor-arg value="TEST" />
+	</bean>
+
+	<!-- OpenRDF Sesame SailRepository (http://www.openrdf.org/) -->
+	<bean id="sail_repository" class="org.openrdf.repository.sail.SailRepository">
+		<constructor-arg ref="native_store" />
+	</bean>
+	<bean id="native_store" class="org.openrdf.sail.nativerdf.NativeStore">
+		<property name="dataDir" ref="native_store_dir" />
+	</bean>
+	<bean id="native_store_dir" class="java.io.File">
+		<!-- Name of sesame data dir -->
+		<constructor-arg value="sail" />
+	</bean>
+
+</beans>

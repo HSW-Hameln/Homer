@@ -1,0 +1,31 @@
+package de.hsw.konsens.homer.client;
+
+import java.util.List;
+
+import de.hsw.konsens.homer.service.HomerService;
+
+public class HomerClient {
+	private HomerService service;
+
+	public String parse(String query) {
+		return query;
+	}
+	
+	public List<?> search(String query) {
+		return null;
+	}
+	
+	public String status() {
+		return "Not implemented.";
+	}
+
+	public HomerService getService() {
+		return service;
+	}
+
+	public void setService(HomerService service) {
+		this.service = service;
+	}
+
+
+}

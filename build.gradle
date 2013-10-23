@@ -1,0 +1,39 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.5
+version = '1.0'
+jar {
+	manifest {
+		attributes 'Implementation-Title': 'Gradle Quickstart', 'Implementation-Version': version
+	}
+}
+
+repositories { mavenCentral() }
+
+dependencies {
+	compile(
+			'org.springframework:spring-core:+',
+			'org.springframework:spring-context:+',
+			
+			'org.openrdf.sesame:sesame-repository-sail:+',
+			'org.openrdf.sesame:sesame-repository-manager:+',
+			'org.openrdf.sesame:sesame-sail-nativerdf:+',
+			'org.openrdf.sesame:sesame-repository-sparql:+',
+			'org.openrdf.sesame:sesame-rio-turtle:2.7.7',
+			
+			'org.elasticsearch:elasticsearch:+',
+			)
+
+	testCompile (
+			'org.testng:testng:+'
+			)
+}
+
+test{ useTestNG() }
+
+uploadArchives {
+	repositories {
+		flatDir { dirs 'repos' }
+	}
+}
