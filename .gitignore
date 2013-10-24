@@ -2,6 +2,7 @@
 bin/
 build/
 data/
+sail/
 test-output/
 
 *.class
