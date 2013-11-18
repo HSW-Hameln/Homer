@@ -27,8 +27,10 @@
 		<constructor-arg ref="el_commands" />
 	</bean>
 
-	<bean id="el_commands" class="de.hsw.konsens.homer.core.parser.commands">
-		<constructor-arg ref="sail_repository" />
+	<bean id="el_commands" class="de.hsw.konsens.homer.core.parser.ELCommands" autowire="byType"/>
+	
+	<bean id="sesame_repository_connection" class="de.hsw.konsens.homer.core.triplestore.SesameRepositoryConnection">
+		<property name="repository" ref="sail_repository" />
 	</bean>
 
 	<!-- OpenRDF Sesame HTTPRepository (http://www.openrdf.org/) -->
