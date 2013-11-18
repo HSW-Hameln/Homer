@@ -8,7 +8,7 @@ import org.elasticsearch.node.NodeBuilder;
 
 import de.hsw.konsens.homer.core.searchengine.ElasticsearchNode;
 
-public class ElasticsearchLocalNode implements ElasticsearchNode{
+public class ElasticsearchLocalNode implements Node, ElasticsearchNode{
 
 	private Node node;
 
@@ -24,6 +24,34 @@ public class ElasticsearchLocalNode implements ElasticsearchNode{
 
 	public Client client() {
 		return node.client();
+	}
+	
+	public void close(){
+		node.close();
+	}
+
+	@Override
+	public Settings settings() {
+		// TODO Auto-generated method stub
+		return node.settings();
+	}
+
+	@Override
+	public Node start() {
+		// TODO Auto-generated method stub
+		return node.start();
+	}
+
+	@Override
+	public Node stop() {
+		// TODO Auto-generated method stub
+		return node.stop();
+	}
+
+	@Override
+	public boolean isClosed() {
+		// TODO Auto-generated method stub
+		return node.isClosed();
 	}
 	
 }

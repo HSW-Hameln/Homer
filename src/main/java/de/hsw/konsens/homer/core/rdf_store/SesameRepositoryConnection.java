@@ -1,4 +1,4 @@
-package de.hsw.konsens.homer.core.triplestore;
+package de.hsw.konsens.homer.core.rdf_store;
 
 import org.openrdf.query.Binding;
 import org.openrdf.query.MalformedQueryException;

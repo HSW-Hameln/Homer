@@ -4,7 +4,7 @@ import org.openrdf.query.MalformedQueryException;
 import org.openrdf.query.QueryEvaluationException;
 import org.openrdf.repository.RepositoryException;
 
-import de.hsw.konsens.homer.core.triplestore.SesameRepositoryConnection;
+import de.hsw.konsens.homer.core.rdf_store.SesameRepositoryConnection;
 
 public class ELCommands {
 	private SesameRepositoryConnection connection = null;

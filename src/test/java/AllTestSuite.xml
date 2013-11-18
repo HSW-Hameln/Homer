@@ -1,0 +1,68 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="All Tests">
+	<test name="cleanup">
+		<groups>
+			<run>
+				<include name="cleanup" />
+			</run>
+		</groups>
+		<classes>
+			<class name="de.hsw.konsens.homer.CommonTest" />
+		</classes>
+	</test>
+	<test name="Spring bean Test">
+		<classes>
+			<class name="de.hsw.konsens.homer.SpringBeanTest" />
+		</classes>
+	</test>
+	<test name="Local Sail Test">
+	    <groups>
+			<run>
+				<include name="local" />
+			</run>
+		</groups>
+		<classes>
+			<class name="de.hsw.konsens.homer.RDFTest" />
+		</classes>
+	</test>
+	<test name="SPARQL Test">
+	    <groups>
+			<run>
+				<include name="remote" />
+			</run>
+		</groups>
+	    <classes>
+			<class name="de.hsw.konsens.homer.RDFTest" />
+		</classes>
+	</test>
+		<test name="Local Searchengine Test">
+	    <groups>
+			<run>
+				<include name="local" />
+			</run>
+		</groups>
+		<classes>
+			<class name="de.hsw.konsens.homer.ElasticSearchTest" />
+		</classes>
+	</test>
+	<test name="Searchengine Cluster Test">
+	    <groups>
+			<run>
+				<include name="remote" />
+			</run>
+		</groups>
+	    <classes>
+			<class name="de.hsw.konsens.homer.ElasticSearchTest" />
+		</classes>
+	</test>
+	<test name="Expression Language Commands Test">
+	    <classes>
+	        <class name="de.hsw.konsens.homer.ELCommandsTest"></class>
+	    </classes>
+	</test>
+	<test name="SpEL Parser Test">
+	    <classes>
+	        <class name="de.hsw.konsens.homer.SpELParserTest"></class>
+	    </classes>
+	</test>
+</suite>
