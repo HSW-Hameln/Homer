@@ -37,6 +37,10 @@ dependencies {
 
 test{ useTestNG() }
 
+clean {
+	 delete 'data','sail';
+}
+
 uploadArchives {
 	repositories {
 		flatDir { dirs 'repos' }

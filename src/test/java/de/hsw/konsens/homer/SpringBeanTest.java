@@ -25,7 +25,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import de.hsw.konsens.homer.core.parser.HomerParser;
-import de.hsw.konsens.homer.core.searchengine.ElasticsearchNode;
 import de.hsw.konsens.homer.service.HomerService;
 
 public class SpringBeanTest {
