@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generator for HSW Mitarbeiter -->
+<generator class="de.hsw.konsens.homer.generator.HSWMitarbeiter">
+    <!-- optional (default value "schema.turtle") -->
+    <schema src="schema.turtle"/>
+</generator>

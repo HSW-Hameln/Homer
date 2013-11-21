@@ -2,15 +2,10 @@ package de.hsw.konsens.homer;
 
 import org.elasticsearch.action.admin.indices.flush.FlushRequest;
 import org.elasticsearch.action.search.SearchResponse;
-import org.elasticsearch.action.suggest.SuggestResponse;
 import org.elasticsearch.client.Client;
-import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.node.Node;
 import org.elasticsearch.search.SearchHit;
-import org.elasticsearch.search.suggest.Suggest.Suggestion;
-import org.elasticsearch.search.suggest.Suggest.Suggestion.Entry;
-import org.elasticsearch.search.suggest.Suggest.Suggestion.Entry.Option;
 import org.openrdf.query.MalformedQueryException;
 import org.openrdf.query.QueryEvaluationException;
 import org.openrdf.repository.RepositoryException;
