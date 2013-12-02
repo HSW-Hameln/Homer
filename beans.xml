@@ -1,55 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
-	default-lazy-init="true">
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.0.xsd"
+	xmlns:util="http://www.springframework.org/schema/util"
+	>
 
-	<bean id="homerEmbeddedService" class="de.hsw.konsens.homer.service.HomerService" autowire="byType" />
-	
-	<bean id="homerWebService" class="de.hsw.konsens.homer.service.HomerService" />
-
-	<bean id="homer_parser" class="de.hsw.konsens.homer.core.parser.HomerParser" autowire="byType" />
-
-	<!-- Wrapper for elasticsearch (http://www.elasticsearch.org/) -->
-	<bean id="elasticsearch_local" class="de.hsw.konsens.homer.core.searchengine.impl.ElasticsearchLocalNode" />
-
-	<!-- SpEL Parser (http://docs.spring.io/spring/docs/3.0.x/reference/expressions.html) -->
-	<bean id="spel_parser" class="org.springframework.expression.spel.standard.SpelExpressionParser" />
-
-	<!-- SpEL ParserContext for ${ } -->
-	<bean id="spel_parser_context" class="org.springframework.expression.common.TemplateParserContext">
-		<constructor-arg value="${" />
-		<constructor-arg value="}" />
-	</bean>
-
-	<!-- SpEL EvaluationContext with Implicit method execution (http://docs.spring.io/spring/docs/3.0.x/reference/expressions.html) -->
-	<bean id="spel_evaluation_context" class="org.springframework.expression.spel.support.StandardEvaluationContext">
-		<constructor-arg ref="el_commands" />
-	</bean>
-
-	<bean id="el_commands" class="de.hsw.konsens.homer.core.parser.ELCommands" autowire="byType"/>
-	
-	<bean id="sesame_repository_connection" class="de.hsw.konsens.homer.core.rdf_store.SesameRepositoryConnection">
-		<property name="repository" ref="sail_repository" />
-	</bean>
-
-	<!-- OpenRDF Sesame HTTPRepository (http://www.openrdf.org/) -->
-	<bean id="http_repository" class="org.openrdf.repository.http.HTTPRepository">
-		<!-- Address and Name of sesame repository -->
-		<constructor-arg value="http://localhost:8080/openrdf-sesame" />
-		<constructor-arg value="TEST" />
-	</bean>
-
-	<!-- OpenRDF Sesame SailRepository (http://www.openrdf.org/) -->
-	<bean id="sail_repository" class="org.openrdf.repository.sail.SailRepository">
-		<constructor-arg ref="native_store" />
-	</bean>
-	<bean id="native_store" class="org.openrdf.sail.nativerdf.NativeStore">
-		<property name="dataDir" ref="native_store_dir" />
-	</bean>
-	<bean id="native_store_dir" class="java.io.File">
-		<!-- Name of sesame data dir -->
-		<constructor-arg value="sail" />
-	</bean>
+	<import resource="config/beans/elasticsearch.xml"/>
+	<import resource="config/beans/felix.xml"/>
+	<import resource="config/beans/homer.xml"/>
+	<import resource="config/beans/sesame.xml"/>
+	<import resource="config/beans/spel.xml"/>
 
 </beans>

@@ -8,6 +8,11 @@
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
 		<config>beans.xml</config>
+		<config>config/beans/sesame.xml</config>
+		<config>config/beans/felix.xml</config>
+		<config>config/beans/spel.xml</config>
+		<config>config/beans/homer.xml</config>
+		<config>config/beans/elasticsearch.xml</config>
 	</configs>
 	<configSets>
 	</configSets>

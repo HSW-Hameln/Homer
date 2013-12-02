@@ -93,4 +93,14 @@ public class SesameRepositoryConnection {
 			
 
 	}
+	public void close() {
+		try {
+			connection.close();
+			repository.shutDown();
+		} catch (RepositoryException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
 }

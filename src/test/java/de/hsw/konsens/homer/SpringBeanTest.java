@@ -56,8 +56,7 @@ public class SpringBeanTest {
 	@Test
 	public void elasticSearchTest() {
 		try {
-			Node node = (Node) spring
-					.getBean("elasticsearch_local");
+			Node node = (Node) spring.getBean("elasticsearch_local");
 			Client client = node.client();
 			AdminClient admin = client.admin();
 			IndicesAdminClient indices = admin.indices();
@@ -118,7 +117,7 @@ public class SpringBeanTest {
 	public void homerServiceTest() {
 		HomerService homerService = (HomerService) spring
 				.getBean("homerEmbeddedService");
-		Assert.assertNotNull(homerService.getSearchengine());
+		Assert.assertNotNull(homerService.getElasticsearch());
 		Assert.assertNotNull(homerService.getParser());
 	}
 

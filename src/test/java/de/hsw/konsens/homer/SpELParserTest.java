@@ -25,8 +25,13 @@ private FileSystemXmlApplicationContext spring;
 	  System.out.println(homerParser.parse("${samePredicate('"
 	  		+ "<http://hsw-hameln.de/hsw/sven-mielke.php>','<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department>')}"));
 	  System.out.println(homerParser.parse(""
-	  		+ "${sparql('SELECT ?o ?l WHERE {<http://hsw-hameln.de/hsw/sven-mielke.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department>"
-	  		+ " ?o. ?s ?p ?o. ?s rdfs:label ?l}')}"));
+	  		+ "${"
+	  		+ "sparql('"
+	  		+ "SELECT ?l WHERE {<http://hsw-hameln.de/hsw/sven-mielke.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> ?o. "
+	  		+ "?s ?p ?o. "
+	  		+ "?s rdfs:label ?l}"
+	  		+ "')"
+	  		+ "}"));
 
 
   }

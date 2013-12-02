@@ -4,28 +4,14 @@ import java.util.List;
 
 import de.hsw.konsens.homer.service.HomerService;
 
-public class HomerClient {
-	private HomerService service;
+public interface HomerClient {
 
-	public String parse(String query) {
-		return query;
-	}
+	public String extend(String query);
 	
-	public List<?> search(String query) {
-		return null;
-	}
-	
-	public String status() {
-		return "Not implemented.";
-	}
+	public List<?> search(String query);
 
-	public HomerService getService() {
-		return service;
-	}
+	public HomerService getService();
 
-	public void setService(HomerService service) {
-		this.service = service;
-	}
-
+	public void setService(HomerService service);
 
 }

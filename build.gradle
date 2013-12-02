@@ -21,6 +21,10 @@ dependencies {
 			'org.springframework:spring-core:+',
 			'org.springframework:spring-context:+',
 			
+//			'org.osgi:org.osgi.core:+',
+			'org.apache.felix:org.apache.felix.main:+',
+			'org.apache.felix:org.apache.felix.framework:+',
+			
 			'org.openrdf.sesame:sesame-repository-sail:+',
 			'org.openrdf.sesame:sesame-repository-manager:+',
 			'org.openrdf.sesame:sesame-sail-nativerdf:+',
