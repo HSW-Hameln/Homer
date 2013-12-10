@@ -46,8 +46,8 @@ public class Homer {
 
 	public void stop() {
 		service.getElasticsearch().close();
-		service.getOpenRDFSesame().close();
-		service.getPluginManager().close();
+		service.getOpenRDFSesame().shutDown();
+		service.getPluginManager().shutdown();
 		service = null;
 	}
 

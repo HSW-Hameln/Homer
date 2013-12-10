@@ -93,7 +93,7 @@ public class SesameRepositoryConnection {
 			
 
 	}
-	public void close() {
+	public void shutDown() {
 		try {
 			connection.close();
 			repository.shutDown();

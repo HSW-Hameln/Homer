@@ -32,6 +32,9 @@ dependencies {
 			'org.openrdf.sesame:sesame-rio-turtle:2.7.7',
 			
 			'org.elasticsearch:elasticsearch:+',
+			
+			files('C:\\smielke\\workspace.HOMER\\HOMERGeneratorInterfaces\\build\\libs\\HOMERGeneratorInterfaces-1.0.jar'),
+			
 			)
 
 	testCompile (

@@ -1,13 +1,7 @@
 package de.hsw.konsens.homer.ontology;
 
-import java.util.List;
+public interface PluginManager {
 
-import org.osgi.framework.BundleActivator;
+	void shutdown();
 
-public interface PluginManager extends BundleActivator{
-	public void addPlugin(GeneratorPlugin generatorPlugin);
-	public List<GeneratorPlugin> getPlugins();
-	public void removePlugin(GeneratorPlugin generatorPlugin);
-	public void shutdown();
-	public void close();
 }
