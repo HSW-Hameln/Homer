@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE content [ <!ELEMENT content (file)+>
+						<!ATTLIST content id ID #REQUIRED>
+					<!ELEMENT file EMPTY>
+						<!ATTLIST file file CDATA #REQUIRED base CDATA #REQUIRED context CDATA #REQUIRED >
+					]>
+<content id="data">
+    <file file="hsw_mitarbeiter.ttl" base="http://hsw-hameln.de" context="file:///c:/tmp/hsw_mitarbeiter.ttl" />
+</content>
