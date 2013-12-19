@@ -27,7 +27,7 @@ public class PluginManagerTest {
 	  
 	  for(GeneratorPlugin p : plugins){
 		  p.setEnabled(true);
-		  p.runGenerator(new File("test-output"));
+		  p.runGenerator(new File("generat"));
 	  }
 	  
 	  testObj.shutdown();

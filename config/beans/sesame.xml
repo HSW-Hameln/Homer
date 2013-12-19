@@ -4,7 +4,8 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<bean id="sesame_repository_connection" class="de.hsw.konsens.homer.core.rdf_store.SesameRepositoryConnection">
-		<property name="repository" ref="sail_repository" />
+		<!-- property name="repository" ref="sail_repository" / -->
+		<property name="repository" ref="http_repository" />
 	</bean>
 
 	<!-- OpenRDF Sesame HTTPRepository (http://www.openrdf.org/) -->

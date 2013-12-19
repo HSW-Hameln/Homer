@@ -1,0 +1,1 @@
+includeFlat 'HOMER_HSWGeneratorPlugin','HOMERGeneratorInterfaces','HOMERGeneratorMockPlugin'

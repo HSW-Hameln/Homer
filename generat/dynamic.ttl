@@ -1,0 +1,354 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.hsw-hameln.de/semantics/vocabulary/emloyee#" > 
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/dr.-barbara-bachmann.php">
+    <j.0:email>bachmann@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–19</j.0:phonenumber>
+    <j.0:raum>1.15</j.0:raum>
+    <j.0:department>Qualitätsmanagement</j.0:department>
+    <j.0:jopTitle>Qualitätsmanagementbeauftragte</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/bachmann.jpg</j.0:image>
+    <j.0:name>Dr. Barbara Bachmann</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/prof.-dr.-robert-mertens.php">
+    <j.0:email>mertens@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–36</j.0:phonenumber>
+    <j.0:raum>2.6</j.0:raum>
+    <j.0:department>Fachbereich Informatik</j.0:department>
+    <j.0:jopTitle>Professor für Anwendungsentwicklung und Medieninformatik</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/prof.-dr.-mertens.jpg</j.0:image>
+    <j.0:name>Prof. Dr. Robert Mertens</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/juergen-stoffregen.php">
+    <j.0:email>stoffregen@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–49</j.0:phonenumber>
+    <j.0:department>Ansprechpartner für Unternehmen</j.0:department>
+    <j.0:jopTitle>Unternehmensbetreuer</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/stoffregen.jpg</j.0:image>
+    <j.0:name>Jürgen Stoffregen</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/prof.-dr.-stefan-razik.php">
+    <j.0:email>razik@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–39</j.0:phonenumber>
+    <j.0:raum>1.23</j.0:raum>
+    <j.0:department>Fachbereich Gesundheit</j.0:department>
+    <j.0:jopTitle>Dekan Fachbereich Gesundheit</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/-mg-5597-a.jpg</j.0:image>
+    <j.0:name>Prof. Dr. Stefan Razik</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/marion-linnemann.php">
+    <j.0:department>Ansprechpartner für Unternehmen</j.0:department>
+    <j.0:jopTitle>Beratung von Unternehmen</j.0:jopTitle>
+    <j.0:email>linnemann@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–0</j.0:phonenumber>
+    <j.0:raum>4.11</j.0:raum>
+    <j.0:department>Hochschulleitung</j.0:department>
+    <j.0:jopTitle>Assistentin des Präsidiums</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/linnemann_4.jpg</j.0:image>
+    <j.0:name>Marion Linnemann</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/andre-von-zobeltitz.php">
+    <j.0:email>vonzobeltitz@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–43</j.0:phonenumber>
+    <j.0:raum>3.7</j.0:raum>
+    <j.0:department>Fachbereich Wirtschaft</j.0:department>
+    <j.0:jopTitle>Lehrkraft für besondere Aufgaben</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/von-zobeltitz.jpg</j.0:image>
+    <j.0:name>André von Zobeltitz</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/fahra-kurtovic.php">
+    <j.0:department>Studenten- und Prüfungssekretariat</j.0:department>
+    <j.0:jopTitle>Studentensekretariat</j.0:jopTitle>
+    <j.0:email>kurtovic@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–14</j.0:phonenumber>
+    <j.0:raum>4.4 (Bibliothek)</j.0:raum>
+    <j.0:department>Bibliothek</j.0:department>
+    <j.0:jopTitle>Verwaltung der Bibliothek</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/ansprechpartner/kurtovic.jpg</j.0:image>
+    <j.0:name>Fahra Kurtovic</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/julia-krueger.php">
+    <j.0:email>krueger@hsw-hameln.de</j.0:email>
+    <j.0:raum>4.13</j.0:raum>
+    <j.0:department>Hochschulleitung</j.0:department>
+    <j.0:jopTitle>Jahrespraktikantin</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/julia-krueger.jpg</j.0:image>
+    <j.0:name>Julia Krüger</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/martina-schulz.php">
+    <j.0:email>schulz@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–0</j.0:phonenumber>
+    <j.0:raum>4.11</j.0:raum>
+    <j.0:department>Ansprechpartner für Unternehmen</j.0:department>
+    <j.0:jopTitle>Ansprechpartnerin für Unternehmen</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/schulz.jpg</j.0:image>
+    <j.0:name>Martina Schulz</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/florian-schimanke.php">
+    <j.0:department>IT-Koordination</j.0:department>
+    <j.0:jopTitle>IT-Systemkoordinator</j.0:jopTitle>
+    <j.0:email>schimanke@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–13</j.0:phonenumber>
+    <j.0:raum>2.2</j.0:raum>
+    <j.0:department>Fachbereich Informatik</j.0:department>
+    <j.0:jopTitle>Dozent im Fachbereich Informatik</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/schimanke_4.jpg</j.0:image>
+    <j.0:name>Florian Schimanke</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/janet-kruse.php">
+    <j.0:email>kruse@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–14</j.0:phonenumber>
+    <j.0:raum>4.4 (Bibliothek)</j.0:raum>
+    <j.0:department>Hochschulleitung</j.0:department>
+    <j.0:jopTitle>Auszubildende</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/janet-kruse.jpg</j.0:image>
+    <j.0:name>Janet Kruse</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/prof.-dr.-hans-ludwig-meyer.php">
+    <j.0:raum>3.2</j.0:raum>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/prof.-dr.-hans-ludwig-meyer_1.jpg</j.0:image>
+    <j.0:jopTitle>Leiter Institut für Personalentwicklung und Lebenslanges Lernen</j.0:jopTitle>
+    <j.0:department>Hochschulleitung</j.0:department>
+    <j.0:department>Weiterbildung</j.0:department>
+    <j.0:jopTitle>Vizepräsident</j.0:jopTitle>
+    <j.0:raum>3.3</j.0:raum>
+    <j.0:department>Fachbereich Wirtschaft</j.0:department>
+    <j.0:jopTitle>Dekan Fachbereich Wirtschaft</j.0:jopTitle>
+    <j.0:email>meyer@hsw-hameln.de</j.0:email>
+    <j.0:name>Prof. Dr. Hans Ludwig Meyer</j.0:name>
+    <j.0:phonenumber>+49 (05151) 95 59–12</j.0:phonenumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/prof.-dr.-bettina-sophie-huck.php">
+    <j.0:email>huck@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–38</j.0:phonenumber>
+    <j.0:raum>3.7a</j.0:raum>
+    <j.0:department>Fachbereich Wirtschaft</j.0:department>
+    <j.0:jopTitle>Professorin für Angewandte Mathematik</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/huck.jpg</j.0:image>
+    <j.0:name>Prof. Dr. Bettina-Sophie Huck</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/anke-schlotthauber.php">
+    <j.0:email>schlotthauber@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–24</j.0:phonenumber>
+    <j.0:raum>4.3</j.0:raum>
+    <j.0:department>Studenten- und Prüfungssekretariat</j.0:department>
+    <j.0:jopTitle>Mitarbeiterin Prüfungsorganisation</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/schlotthauber_2.jpg</j.0:image>
+    <j.0:name>Anke Schlotthauber</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/ina-struckmann.php">
+    <j.0:email>struckmann@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–53</j.0:phonenumber>
+    <j.0:raum>1.21</j.0:raum>
+    <j.0:department>Fachbereich Gesundheit</j.0:department>
+    <j.0:jopTitle>Wissenschaftliche Mitarbeiterin</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/foto-schwarzer-hintergrund-bearbeitet-isov2---kopie.jpg</j.0:image>
+    <j.0:name>Ina Struckmann</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/prof.-dr.-michael-staedler.php">
+    <j.0:email>staedler@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–17</j.0:phonenumber>
+    <j.0:raum>2.3</j.0:raum>
+    <j.0:department>Fachbereich Informatik</j.0:department>
+    <j.0:jopTitle>Dekan Fachbereich Informatik</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/staedler_4.jpg</j.0:image>
+    <j.0:name>Prof. Dr. Michael Städler</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/ramona-salzbrunn.php">
+    <j.0:email>salzbrunn@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–20</j.0:phonenumber>
+    <j.0:raum>3.7</j.0:raum>
+    <j.0:department>Weiterbildung</j.0:department>
+    <j.0:jopTitle>Programmentwicklung und Kompetenzanrechnung</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/salzbrunn_2.jpg</j.0:image>
+    <j.0:name>Ramona Salzbrunn</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/kavitha-jagannath.php">
+    <j.0:email>kavitha@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–48</j.0:phonenumber>
+    <j.0:raum>2.5</j.0:raum>
+    <j.0:department>Fachbereich Informatik</j.0:department>
+    <j.0:jopTitle>Wissenschaftliche Mitarbeiterin</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/jagannath.jpg</j.0:image>
+    <j.0:name>Kavitha Jagannath</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/andrea-kusch.php">
+    <j.0:email>kusch@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–15</j.0:phonenumber>
+    <j.0:raum>3.5</j.0:raum>
+    <j.0:department>Ansprechpartner für Lehrbeauftragte</j.0:department>
+    <j.0:jopTitle>Studienplanung duale Studiengänge</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/kusch.jpg</j.0:image>
+    <j.0:name>Andrea Kusch</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/joerg-rafael-heim.php">
+    <j.0:email>heim@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–51</j.0:phonenumber>
+    <j.0:raum>3.7a</j.0:raum>
+    <j.0:department>Fachbereich Wirtschaft</j.0:department>
+    <j.0:jopTitle>Lehrkraft für Rechnungswesen, Controlling und Energierecht</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/heim.jpg</j.0:image>
+    <j.0:name>Jörg-Rafael Heim</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/prof.-dr.-michael-hißmann.php">
+    <j.0:email>hissmann@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–40</j.0:phonenumber>
+    <j.0:raum>2.6a</j.0:raum>
+    <j.0:department>Fachbereich Informatik</j.0:department>
+    <j.0:jopTitle>Professor für Softwaretechnik und Methoden der Modellbildung</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/hissmann.jpg</j.0:image>
+    <j.0:name>Prof. Dr. Michael Hißmann</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/prof.-dr.-ing.-martin-kesting.php">
+    <j.0:email>kesting@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–42</j.0:phonenumber>
+    <j.0:raum>1.21</j.0:raum>
+    <j.0:department>Fachbereich Technik</j.0:department>
+    <j.0:jopTitle>Professor für Elektro- und Energietechnik</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/kesting.jpg</j.0:image>
+    <j.0:name>Prof. Dr.-Ing. Martin Kesting</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/martin-kreft.php">
+    <j.0:department>Weiterbildung</j.0:department>
+    <j.0:jopTitle>Organisation berufsbegleitender Studiengänge und Weiterbildung</j.0:jopTitle>
+    <j.0:email>kreft@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–47</j.0:phonenumber>
+    <j.0:raum>3.5</j.0:raum>
+    <j.0:department>Ansprechpartner für Lehrbeauftragte</j.0:department>
+    <j.0:jopTitle>Studienplanung berufsbegleitende Studiengänge</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/martin-kreft-klein.jpg</j.0:image>
+    <j.0:name>Martin Kreft</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/lara-wennemann.php">
+    <j.0:department>Beratung von Studieninteressierten</j.0:department>
+    <j.0:jopTitle>Ansprechpartnerin für Studieninteressierte</j.0:jopTitle>
+    <j.0:email>wennemann@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–21</j.0:phonenumber>
+    <j.0:raum>4.9</j.0:raum>
+    <j.0:department>Ansprechpartner für Pressevertreter</j.0:department>
+    <j.0:jopTitle>Marketing &amp; Kommunikation</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/lara-wennemann.jpg</j.0:image>
+    <j.0:name>Lara Wennemann</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/knut-linke.php">
+    <j.0:email>linke@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59-46</j.0:phonenumber>
+    <j.0:raum>1.21</j.0:raum>
+    <j.0:department>Fachbereich Informatik</j.0:department>
+    <j.0:jopTitle>Koordinator E-Learning Center</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/knut-linke.jpg</j.0:image>
+    <j.0:name>Knut Linke</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/monika-deppmeyer.php">
+    <j.0:email>deppmeyer@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–28</j.0:phonenumber>
+    <j.0:raum>1.15</j.0:raum>
+    <j.0:department>Qualitätsmanagement</j.0:department>
+    <j.0:jopTitle>Mitarbeiterin im Qualitätsmanagement</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/monika-deppmeyer_1.jpg</j.0:image>
+    <j.0:name>Monika Deppmeyer</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/prof.-dr.-meik-friedrich.php">
+    <j.0:email>friedrich@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–33</j.0:phonenumber>
+    <j.0:raum>3.4</j.0:raum>
+    <j.0:department>Fachbereich Wirtschaft</j.0:department>
+    <j.0:jopTitle>Professor für Finanzwirtschaft und Risikomanagement</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/friedrich.jpg</j.0:image>
+    <j.0:name>Prof. Dr. Meik Friedrich</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/maria-wilmes.php">
+    <j.0:email>wilmes@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–39</j.0:phonenumber>
+    <j.0:raum>1.21</j.0:raum>
+    <j.0:department>Fachbereich Gesundheit</j.0:department>
+    <j.0:jopTitle>Wissenschaftliche Mitarbeiterin</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/maria-wilmes.jpg</j.0:image>
+    <j.0:name>Maria Wilmes</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/nils-sporleder.php">
+    <j.0:email>sporleder@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–22</j.0:phonenumber>
+    <j.0:raum>2.2</j.0:raum>
+    <j.0:department>IT-Koordination</j.0:department>
+    <j.0:jopTitle>IT-Systemadministrator</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/sporleder.jpg</j.0:image>
+    <j.0:name>Nils Sporleder</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/susanna-prasuhn.php">
+    <j.0:email>prasuhn@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–23</j.0:phonenumber>
+    <j.0:raum>4.10</j.0:raum>
+    <j.0:department>Hochschulleitung</j.0:department>
+    <j.0:jopTitle>Vizepräsidentin</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/prasuhn_2.jpg</j.0:image>
+    <j.0:name>Susanna Prasuhn</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/prof.-dr.-timm-eichenberg.php">
+    <j.0:email>eichenberg@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–37</j.0:phonenumber>
+    <j.0:raum>3.4</j.0:raum>
+    <j.0:department>Fachbereich Wirtschaft</j.0:department>
+    <j.0:jopTitle>Professor für Personal- und Projektmanagement</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/eichenberg.jpg</j.0:image>
+    <j.0:name>Prof. Dr. Timm Eichenberg</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/thorsten-giese.php">
+    <j.0:email>giese@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–31</j.0:phonenumber>
+    <j.0:raum>4.13</j.0:raum>
+    <j.0:department>Buchhaltung</j.0:department>
+    <j.0:jopTitle>Finanzbuchhaltung</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/giese.jpg</j.0:image>
+    <j.0:name>Thorsten Giese</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/anja-schloesser.php">
+    <j.0:email>schloesser@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–30</j.0:phonenumber>
+    <j.0:raum>4.3</j.0:raum>
+    <j.0:department>Studenten- und Prüfungssekretariat</j.0:department>
+    <j.0:jopTitle>Mitarbeiterin Prüfungsorganisation</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/schloesser.jpg</j.0:image>
+    <j.0:name>Anja Schlösser</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/kathleen-blanke.php">
+    <j.0:email>blanke@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–24</j.0:phonenumber>
+    <j.0:raum>4.3</j.0:raum>
+    <j.0:department>Studenten- und Prüfungssekretariat</j.0:department>
+    <j.0:jopTitle>Mitarbeiterin Prüfungsorganisation</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/blanke-klein_1.jpg</j.0:image>
+    <j.0:name>Kathleen Blanke</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/prof.-dr.-joerg-schulte.php">
+    <j.0:department>Bibliothek</j.0:department>
+    <j.0:jopTitle>Wissenschaftliche Leitung der Bibliothek</j.0:jopTitle>
+    <j.0:email>schulte@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–18</j.0:phonenumber>
+    <j.0:raum>1.22</j.0:raum>
+    <j.0:department>Fachbereich Technik</j.0:department>
+    <j.0:jopTitle>Dekan Fachbereich Technik</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/schulte_2.jpg</j.0:image>
+    <j.0:name>Prof. Dr. Jörg Schulte</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/prof.-dr.-volkmar-langer.php">
+    <j.0:department>Fachbereich Informatik</j.0:department>
+    <j.0:jopTitle>Professor für vernetzte IT-Systeme und E-Learning</j.0:jopTitle>
+    <j.0:email>langer@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–0</j.0:phonenumber>
+    <j.0:raum>4.12</j.0:raum>
+    <j.0:department>Hochschulleitung</j.0:department>
+    <j.0:jopTitle>Präsident</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/langer.jpg</j.0:image>
+    <j.0:name>Prof. Dr. Volkmar Langer</j.0:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hsw-hameln.de/hsw/sven-mielke.php">
+    <j.0:email>mielke@hsw-hameln.de</j.0:email>
+    <j.0:phonenumber>+49 (05151) 95 59–48</j.0:phonenumber>
+    <j.0:raum>2.5</j.0:raum>
+    <j.0:department>Fachbereich Informatik</j.0:department>
+    <j.0:jopTitle>Wissenschaftlicher Mitarbeiter</j.0:jopTitle>
+    <j.0:image>http://hsw-hameln.de/../hsw/media/mielke.jpg</j.0:image>
+    <j.0:name>Sven Mielke</j.0:name>
+  </rdf:Description>
+</rdf:RDF>

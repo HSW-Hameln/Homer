@@ -33,7 +33,7 @@ dependencies {
 			
 			'org.elasticsearch:elasticsearch:+',
 			
-			files('C:\\smielke\\workspace.HOMER\\HOMERGeneratorInterfaces\\build\\libs\\HOMERGeneratorInterfaces-1.0.jar'),
+			files('..\\HOMERGeneratorInterfaces\\build\\libs\\HOMERGeneratorInterfaces-1.0.jar'),
 			
 			)
 
@@ -42,7 +42,7 @@ dependencies {
 			)
 }
 
-test{ useTestNG() }
+//test{ useTestNG() }
 
 clean {
 	 delete 'data','sail';

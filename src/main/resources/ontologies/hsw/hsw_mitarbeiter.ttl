@@ -1,0 +1,357 @@
+
+<http://www.xing.com/profile/Patrick_Soehlke> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Management" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.nextvision.info/images/patrick_s.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Geschäftsführung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Patrick Söhlke" .
+
+<http://www.xing.com/profile/Michaela_Zalivani> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Management" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.nextvision.info/images/m_zalivani.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Personalleitung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Michaela Zalivani" .
+
+<http://www.xing.com/profile/Carina_Baron> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Vertrieb, Marketing und Controlling" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.nextvision.info/images/c_baron2.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Controlling" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Carina Budde" .
+
+<http://www.xing.com/profile/Peter_Hofmann155> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Vertrieb, Marketing und Controlling" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.nextvision.info/images/p_hofmann2.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Vertrieb" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Peter Hofmann" .
+
+<http://www.xing.com/profile/Matthias_Rohde6> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Vertrieb, Marketing und Controlling" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.nextvision.info/images/m_rohde3.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Marketing" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Matthias Rohde" .
+
+<http://www.xing.com/profile/Bastian_Alex> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Consulting und Entwicklung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.nextvision.info/images/b_alex3.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Administration" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Bastian Alex" .
+
+<http://www.xing.com/profile/Sebastian_Budde2> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Consulting und Entwicklung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.nextvision.info/images/s_budde2.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Consulting" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Sebastian Budde" .
+
+<http://www.xing.com/profile/Silke_Frese2> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Consulting und Entwicklung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.nextvision.info/images/s_frese3.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Consulting" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Silke Frese" .
+
+<https://www.xing.com/profile/Bahareh_Jazayeri> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Consulting und Entwicklung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.nextvision.info/images/b_jazayeri.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Entwicklung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Bahareh Jazayeri" .
+
+<http://www.xing.com/profile/MichaelW_Klein2> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Consulting und Entwicklung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.nextvision.info/images/m_klein.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Consulting" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Michael Klein" .
+
+<https://www.xing.com/profile/Natascha_Pranjic> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Consulting und Entwicklung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.nextvision.info/images/n_pranjic.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Entwicklung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Natascha Pranjic" .
+
+<http://www.xing.com/profile/Dennis_Schmitz12> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Consulting und Entwicklung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.nextvision.info/images/d_schmitz3.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Consulting" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Dennis Schmitz" .
+
+<http://www.xing.com/profile/Sevda_Dogan> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Telesales (in Kooperation mit unserem Partner MKV Consult)" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.nextvision.info/images/s_dogan.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Telesalesleitung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Sevda Dogan" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-volkmar-langer.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Hochschulleitung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/langer.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Präsident" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Prof. Dr. Volkmar Langer" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-hans-ludwig-meyer.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Hochschulleitung" , "Fachbereich Wirtschaft" , "Weiterbildung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/prof.-dr.-hans-ludwig-meyer_1.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Vizepräsident" , "Dekan Fachbereich Wirtschaft" , "Leiter Institut für Personalentwicklung und Lebenslanges Lernen" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Prof. Dr. Hans Ludwig Meyer" .
+
+<http://hsw-hameln.de/hsw/susanna-prasuhn.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Hochschulleitung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/prasuhn_2.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Vizepräsidentin" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Susanna Prasuhn" .
+
+<http://hsw-hameln.de/hsw/marion-linnemann.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Hochschulleitung" , "Ansprechpartner für Unternehmen" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/linnemann_4.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Assistentin des Präsidiums" , "Beratung von Unternehmen" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Marion Linnemann" .
+
+<http://hsw-hameln.de/hsw/janet-kruse.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Hochschulleitung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/kruse-klein.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Auszubildende" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Janet Kruse" .
+
+<http://hsw-hameln.de/hsw/julia-krueger.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Hochschulleitung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/julia-krueger.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Jahrespraktikantin" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Julia Krüger" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-timm-eichenberg.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Fachbereich Wirtschaft" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/eichenberg.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Professor für Personal- und Projektmanagement" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Prof. Dr. Timm Eichenberg" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-meik-friedrich.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Fachbereich Wirtschaft" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/friedrich.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Professor für Finanzwirtschaft und Risikomanagement" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Prof. Dr. Meik Friedrich" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-bettina-sophie-huck.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Fachbereich Wirtschaft" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/huck.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Professorin für Angewandte Mathematik" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Prof. Dr. Bettina-Sophie Huck" .
+
+<http://hsw-hameln.de/hsw/andre-von-zobeltitz.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Fachbereich Wirtschaft" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/von-zobeltitz.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Lehrkraft für besondere Aufgaben" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "André von Zobeltitz" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-michael-staedler.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Fachbereich Informatik" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/staedler_4.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Dekan Fachbereich Informatik" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Prof. Dr. Michael Städler" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-michael-hißmann.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Fachbereich Informatik" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/hissmann.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Professor für Softwaretechnik und Methoden der Modellbildung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Prof. Dr. Michael Hißmann" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-volkmar-langer.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Fachbereich Informatik" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/langer.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Professor für vernetzte IT-Systeme und E-Learning" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Prof. Dr. Volkmar Langer" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-robert-mertens.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Fachbereich Informatik" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/prof.-dr.-mertens.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Professor für Anwendungsentwicklung und Medieninformatik" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Prof. Dr. Robert Mertens" .
+
+<http://hsw-hameln.de/hsw/knut-linke.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Fachbereich Informatik" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/knut-linke.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Koordinator E-Learning Center" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Knut Linke" .
+
+<http://hsw-hameln.de/hsw/florian-schimanke.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Fachbereich Informatik" , "IT-Koordination" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/schimanke_4.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Dozent im Fachbereich Informatik" , "IT-Systemkoordinator" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Florian Schimanke" .
+
+<http://hsw-hameln.de/hsw/kavitha-jagannath.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Fachbereich Informatik" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/jagannath.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Wissenschaftliche Mitarbeiterin" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Kavitha Jagannath" .
+
+<http://hsw-hameln.de/hsw/sven-mielke.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Fachbereich Informatik" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/mielke.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Wissenschaftlicher Mitarbeiter" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Sven Mielke" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-joerg-schulte.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Fachbereich Technik" , "Bibliothek" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/schulte_2.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Dekan Fachbereich Technik" , "Wissenschaftliche Leitung der Bibliothek" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Prof. Dr. Jörg Schulte" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-ing.-martin-kesting.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Fachbereich Technik" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/kesting.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Professor für Elektro- und Energietechnik" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Prof. Dr.-Ing. Martin Kesting" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-stefan-razik_1.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Fachbereich Gesundheit" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/-mg-5597-a.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Dekan Fachbereich Gesundheit" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Prof. Dr. Stefan Razik" .
+
+<http://hsw-hameln.de/hsw/ina-struckmann.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Fachbereich Gesundheit" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/foto-schwarzer-hintergrund-bearbeitet-isov2---kopie.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Wissenschaftliche Mitarbeiterin" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Ina Struckmann" .
+
+<http://hsw-hameln.de/hsw/maria-wilmes.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Fachbereich Gesundheit" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/maria-wilmes.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Wissenschaftliche Mitarbeiterin" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Maria Wilmes" .
+
+<http://hsw-hameln.de/hsw/ramona-salzbrunn.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Weiterbildung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/salzbrunn_2.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Programmentwicklung und Kompetenzanrechnung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Ramona Salzbrunn" .
+
+<http://hsw-hameln.de/hsw/martin-kreft.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Weiterbildung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/martin-kreft-klein.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Organisation berufsbegleitender Studiengänge und Weiterbildung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Martin Kreft" .
+
+<http://hsw-hameln.de/hsw/andrea-kusch.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Beratung von Studieninteressierten" , "Ansprechpartner für Lehrbeauftragte" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/kusch.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Ansprechpartnerin für Studieninteressierte" , "Ansprechpartnerin für Lehrbeauftragte" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Andrea Kusch" .
+
+<http://hsw-hameln.de/hsw/juergen-stoffregen.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Ansprechpartner für Unternehmen" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/stoffregen.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Unternehmensbetreuer" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Jürgen Stoffregen" .
+
+<http://hsw-hameln.de/hsw/martina-schulz.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Ansprechpartner für Unternehmen" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/schulz.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Ansprechpartnerin für Unternehmen" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Martina Schulz" .
+
+<http://hsw-hameln.de/hsw/anja-schloesser.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Ansprechpartner für Lehrbeauftragte" , "Studenten- und Prüfungssekretariat" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/martin-kreft-klein.jpg" , "http://www.hsw-hameln.de/hsw/media/schloesser.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Studienplanung berufsbegleitender Studiengänge" , "Mitarbeiterin Prüfungsorganisation" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Martin Kreft" , "Anja Schlösser" .
+
+<http://hsw-hameln.de/hsw/friederike-wenthe.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Ansprechpartner für Pressevertreter" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/friederike_wenthe_2007_1.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Referentin Marketing und Kommunikation" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Friederike Wenthe" .
+
+<http://hsw-hameln.de/hsw/lara-wennemann.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Ansprechpartner für Pressevertreter" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/lara-wennemann.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Volontärin Marketing & Kommunikation" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Lara Wennemann" .
+
+<http://hsw-hameln.de/hsw/birgit-nipkau.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Ansprechpartner für Pressevertreter" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/birgit-nipkau.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Referentin Marketing & Kommunikation" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Birgit Nipkau" .
+
+<http://hsw-hameln.de/hsw/fahra-kurtovic.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Studenten- und Prüfungssekretariat" , "Bibliothek" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/ansprechpartner/kurtovic.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Studentensekretariat" , "Verwaltung der Bibliothek" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Fahra Kurtovic" .
+
+<http://hsw-hameln.de/hsw/kathleen-blanke.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Studenten- und Prüfungssekretariat" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/blanke-klein_1.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Mitarbeiterin Prüfungsorganisation" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Kathleen Blanke" .
+
+<http://hsw-hameln.de/hsw/dr.-barbara-bachmann.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Qualitätsmanagement" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/bachmann.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Qualitätsmanagementbeauftragte" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Dr. Barbara Bachmann" .
+
+<http://hsw-hameln.de/hsw/monika-deppmeyer_1.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Qualitätsmanagement" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/monika-deppmeyer_1.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Mitarbeiterin im Qualitätsmanagement" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Monika Deppmeyer" .
+
+<http://hsw-hameln.de/hsw/thorsten-giese.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "Buchhaltung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/giese.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "Finanzbuchhaltung" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Thorsten Giese" .
+
+<http://hsw-hameln.de/hsw/nils-sporleder.php> <http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department> "IT-Koordination" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#image> "http://www.hsw-hameln.de/hsw/media/sporleder.jpg" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#jopTitle> "IT-Systemadministrator" ;
+	<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#name> "Nils Sporleder" .
+
+<http://www.xing.com/profile/Patrick_Soehlke> <http://www.w3.org/2000/01/rdf-schema#label> "Patrick Söhlke" .
+
+<http://www.xing.com/profile/Michaela_Zalivani> <http://www.w3.org/2000/01/rdf-schema#label> "Michaela Zalivani" .
+
+<http://www.xing.com/profile/Carina_Baron> <http://www.w3.org/2000/01/rdf-schema#label> "Carina Budde" .
+
+<http://www.xing.com/profile/Peter_Hofmann155> <http://www.w3.org/2000/01/rdf-schema#label> "Peter Hofmann" .
+
+<http://www.xing.com/profile/Matthias_Rohde6> <http://www.w3.org/2000/01/rdf-schema#label> "Matthias Rohde" .
+
+<http://www.xing.com/profile/Bastian_Alex> <http://www.w3.org/2000/01/rdf-schema#label> "Bastian Alex" .
+
+<http://www.xing.com/profile/Sebastian_Budde2> <http://www.w3.org/2000/01/rdf-schema#label> "Sebastian Budde" .
+
+<http://www.xing.com/profile/Silke_Frese2> <http://www.w3.org/2000/01/rdf-schema#label> "Silke Frese" .
+
+<https://www.xing.com/profile/Bahareh_Jazayeri> <http://www.w3.org/2000/01/rdf-schema#label> "Bahareh Jazayeri" .
+
+<http://www.xing.com/profile/MichaelW_Klein2> <http://www.w3.org/2000/01/rdf-schema#label> "Michael Klein" .
+
+<https://www.xing.com/profile/Natascha_Pranjic> <http://www.w3.org/2000/01/rdf-schema#label> "Natascha Pranjic" .
+
+<http://www.xing.com/profile/Dennis_Schmitz12> <http://www.w3.org/2000/01/rdf-schema#label> "Dennis Schmitz" .
+
+<http://www.xing.com/profile/Sevda_Dogan> <http://www.w3.org/2000/01/rdf-schema#label> "Sevda Dogan" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-volkmar-langer.php> <http://www.w3.org/2000/01/rdf-schema#label> "Prof. Dr. Volkmar Langer" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-hans-ludwig-meyer.php> <http://www.w3.org/2000/01/rdf-schema#label> "Prof. Dr. Hans Ludwig Meyer" .
+
+<http://hsw-hameln.de/hsw/susanna-prasuhn.php> <http://www.w3.org/2000/01/rdf-schema#label> "Susanna Prasuhn" .
+
+<http://hsw-hameln.de/hsw/marion-linnemann.php> <http://www.w3.org/2000/01/rdf-schema#label> "Marion Linnemann" .
+
+<http://hsw-hameln.de/hsw/janet-kruse.php> <http://www.w3.org/2000/01/rdf-schema#label> "Janet Kruse" .
+
+<http://hsw-hameln.de/hsw/julia-krueger.php> <http://www.w3.org/2000/01/rdf-schema#label> "Julia Krüger" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-timm-eichenberg.php> <http://www.w3.org/2000/01/rdf-schema#label> "Prof. Dr. Timm Eichenberg" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-meik-friedrich.php> <http://www.w3.org/2000/01/rdf-schema#label> "Prof. Dr. Meik Friedrich" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-bettina-sophie-huck.php> <http://www.w3.org/2000/01/rdf-schema#label> "Prof. Dr. Bettina-Sophie Huck" .
+
+<http://hsw-hameln.de/hsw/andre-von-zobeltitz.php> <http://www.w3.org/2000/01/rdf-schema#label> "André von Zobeltitz" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-michael-staedler.php> <http://www.w3.org/2000/01/rdf-schema#label> "Prof. Dr. Michael Städler" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-michael-hißmann.php> <http://www.w3.org/2000/01/rdf-schema#label> "Prof. Dr. Michael Hißmann" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-volkmar-langer.php> <http://www.w3.org/2000/01/rdf-schema#label> "Prof. Dr. Volkmar Langer" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-robert-mertens.php> <http://www.w3.org/2000/01/rdf-schema#label> "Prof. Dr. Robert Mertens" .
+
+<http://hsw-hameln.de/hsw/knut-linke.php> <http://www.w3.org/2000/01/rdf-schema#label> "Knut Linke" .
+
+<http://hsw-hameln.de/hsw/florian-schimanke.php> <http://www.w3.org/2000/01/rdf-schema#label> "Florian Schimanke" .
+
+<http://hsw-hameln.de/hsw/kavitha-jagannath.php> <http://www.w3.org/2000/01/rdf-schema#label> "Kavitha Jagannath" .
+
+<http://hsw-hameln.de/hsw/sven-mielke.php> <http://www.w3.org/2000/01/rdf-schema#label> "Sven Mielke" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-joerg-schulte.php> <http://www.w3.org/2000/01/rdf-schema#label> "Prof. Dr. Jörg Schulte" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-ing.-martin-kesting.php> <http://www.w3.org/2000/01/rdf-schema#label> "Prof. Dr.-Ing. Martin Kesting" .
+
+<http://hsw-hameln.de/hsw/prof.-dr.-stefan-razik_1.php> <http://www.w3.org/2000/01/rdf-schema#label> "Prof. Dr. Stefan Razik" .
+
+<http://hsw-hameln.de/hsw/ina-struckmann.php> <http://www.w3.org/2000/01/rdf-schema#label> "Ina Struckmann" .
+
+<http://hsw-hameln.de/hsw/maria-wilmes.php> <http://www.w3.org/2000/01/rdf-schema#label> "Maria Wilmes" .
+
+<http://hsw-hameln.de/hsw/ramona-salzbrunn.php> <http://www.w3.org/2000/01/rdf-schema#label> "Ramona Salzbrunn" .
+
+<http://hsw-hameln.de/hsw/martin-kreft.php> <http://www.w3.org/2000/01/rdf-schema#label> "Martin Kreft" .
+
+<http://hsw-hameln.de/hsw/andrea-kusch.php> <http://www.w3.org/2000/01/rdf-schema#label> "Andrea Kusch" .
+
+<http://hsw-hameln.de/hsw/juergen-stoffregen.php> <http://www.w3.org/2000/01/rdf-schema#label> "Jürgen Stoffregen" .
+
+<http://hsw-hameln.de/hsw/martina-schulz.php> <http://www.w3.org/2000/01/rdf-schema#label> "Martina Schulz" .
+
+<http://hsw-hameln.de/hsw/anja-schloesser.php> <http://www.w3.org/2000/01/rdf-schema#label> "Martin Kreft" , "Anja Schlösser" .
+
+<http://hsw-hameln.de/hsw/friederike-wenthe.php> <http://www.w3.org/2000/01/rdf-schema#label> "Friederike Wenthe" .
+
+<http://hsw-hameln.de/hsw/lara-wennemann.php> <http://www.w3.org/2000/01/rdf-schema#label> "Lara Wennemann" .
+
+<http://hsw-hameln.de/hsw/birgit-nipkau.php> <http://www.w3.org/2000/01/rdf-schema#label> "Birgit Nipkau" .
+
+<http://hsw-hameln.de/hsw/fahra-kurtovic.php> <http://www.w3.org/2000/01/rdf-schema#label> "Fahra Kurtovic" .
+
+<http://hsw-hameln.de/hsw/kathleen-blanke.php> <http://www.w3.org/2000/01/rdf-schema#label> "Kathleen Blanke" .
+
+<http://hsw-hameln.de/hsw/dr.-barbara-bachmann.php> <http://www.w3.org/2000/01/rdf-schema#label> "Dr. Barbara Bachmann" .
+
+<http://hsw-hameln.de/hsw/monika-deppmeyer_1.php> <http://www.w3.org/2000/01/rdf-schema#label> "Monika Deppmeyer" .
+
+<http://hsw-hameln.de/hsw/thorsten-giese.php> <http://www.w3.org/2000/01/rdf-schema#label> "Thorsten Giese" .
+
+<http://hsw-hameln.de/hsw/nils-sporleder.php> <http://www.w3.org/2000/01/rdf-schema#label> "Nils Sporleder" .
