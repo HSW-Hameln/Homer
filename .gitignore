@@ -8,7 +8,7 @@ test-output/
 *.class
 
 # Package Files #
-*.jar
+#*.jar
 *.war
 *.ear
 
