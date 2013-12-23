@@ -22,8 +22,7 @@ private FileSystemXmlApplicationContext spring;
   @Test
   public void parse() {
 		
-	  System.out.println(homerParser.parse("${samePredicate('"
-	  		+ "<http://hsw-hameln.de/hsw/sven-mielke.php>','<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department>')}"));
+	  System.out.println(homerParser.parse("${samePredicate('<http://hsw-hameln.de/hsw/sven-mielke.php>','<http://www.hsw-hameln.de/semantics/vocabulary/emloyee#department>')}"));
 	  System.out.println(homerParser.parse(""
 	  		+ "${"
 	  		+ "sparql('"

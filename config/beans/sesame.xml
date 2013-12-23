@@ -5,7 +5,7 @@
 
 	<bean id="sesame_repository_connection" class="de.hsw.konsens.homer.core.rdf_store.SesameRepositoryConnection">
 		<!-- property name="repository" ref="sail_repository" / -->
-		<property name="repository" ref="http_repository" />
+		<property name="repository" ref="sail_repository" />
 	</bean>
 
 	<!-- OpenRDF Sesame HTTPRepository (http://www.openrdf.org/) -->

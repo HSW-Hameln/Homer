@@ -35,6 +35,15 @@ dependencies {
 			
 			files('..\\HOMERGeneratorInterfaces\\build\\libs\\HOMERGeneratorInterfaces-1.0.jar'),
 			
+//			'org.apache.tika:tika-core:+',
+//			'org.apache.tika:tika-parsers:+',
+			
+//			'xerces:xercesImpl:2.9.1',
+			
+			
+			'com.fasterxml.jackson.core:jackson-core:2.3.0',
+			'com.fasterxml.jackson.core:jackson-databind:2.3.0',
+			
 			)
 
 	testCompile (

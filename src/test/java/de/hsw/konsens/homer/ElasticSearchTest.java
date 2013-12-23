@@ -1,6 +1,6 @@
 package de.hsw.konsens.homer;
 
-import org.elasticsearch.action.admin.indices.flush.FlushRequest;
+import org.elasticsearch.action.admin.indices.create.CreateIndexRequest;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.Client;
 import org.elasticsearch.index.query.QueryBuilders;
@@ -14,6 +14,7 @@ import org.testng.annotations.Test;
 
 import de.hsw.konsens.homer.core.rdf_store.SesameRepositoryConnection;
 
+
 public class ElasticSearchTest {
 	private FileSystemXmlApplicationContext spring = new FileSystemXmlApplicationContext("beans.xml");
 
@@ -25,9 +26,11 @@ public class ElasticSearchTest {
 	@Test(groups = "local")
 	public void localTest() {
 		Node n = (Node)spring.getBean("elasticsearch_local");
-		SesameRepositoryConnection rdfcon = (SesameRepositoryConnection) spring.getBean("sesame_repository_connection");
 		Client c = n.client();
+
+		c.admin().indices().create(new CreateIndexRequest("data"));
 		
+		SesameRepositoryConnection rdfcon = (SesameRepositoryConnection) spring.getBean("sesame_repository_connection");
 			try {
 				rdfcon.index(c);
 			} catch (RepositoryException e) {
@@ -40,15 +43,17 @@ public class ElasticSearchTest {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			
-			c.admin().indices().flush(new FlushRequest("sail")).actionGet();
-			
+
+			rdfcon.shutDown();
+						
 			SearchResponse response = c.prepareSearch().setIndices("sail").setQuery(QueryBuilders.queryString("langer")).setSize(50).execute().actionGet();
 
 			for (SearchHit h : response.getHits()) {
 				System.out.println(h.getSource());
 			}
 
+			n.client().close();
+		n.stop();
 		n.close();
 	}
 

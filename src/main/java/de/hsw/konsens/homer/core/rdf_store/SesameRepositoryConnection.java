@@ -1,5 +1,7 @@
 package de.hsw.konsens.homer.core.rdf_store;
 
+import java.util.List;
+
 import org.elasticsearch.action.ActionFuture;
 import org.elasticsearch.action.admin.indices.create.CreateIndexRequest;
 import org.elasticsearch.action.admin.indices.delete.DeleteIndexRequest;
@@ -8,6 +10,7 @@ import org.elasticsearch.action.admin.indices.exists.indices.IndicesExistsRespon
 import org.elasticsearch.action.admin.indices.flush.FlushRequest;
 import org.elasticsearch.client.AdminClient;
 import org.elasticsearch.client.Client;
+import org.openrdf.model.Value;
 import org.openrdf.query.Binding;
 import org.openrdf.query.MalformedQueryException;
 import org.openrdf.query.QueryEvaluationException;
@@ -77,21 +80,26 @@ public class SesameRepositoryConnection {
 			tq = connection.prepareTupleQuery(QueryLanguage.SPARQL, query);
 			tqr = tq.evaluate();
 			
-			index = "{\""+uri+"\":[";
+			index = "{\""+uri+"\":[\"";
 			
 			if(tqr.hasNext())
-				index += tqr.next().getValue("o");
+				index += trim(tqr.next().getValue("o"));
+			
 			while(tqr.hasNext())
 			{
-				index += ","+tqr.next().getValue("o");				
+				index += "\",\""+trim(tqr.next().getValue("o"));				
 			}
-			index += "]}";
+			index += "\"]}";
 			c.prepareIndex("sail", "subject").setSource(index).get();
 		}
 		
 		c.admin().indices().flush(new FlushRequest("sail"));
-			
 
+	}
+	private String trim(Value value) {
+		if(value.toString().charAt(0) == '\"')
+		return value.toString().substring(1,value.toString().length()-1);
+		return value.toString();
 	}
 	public void shutDown() {
 		try {

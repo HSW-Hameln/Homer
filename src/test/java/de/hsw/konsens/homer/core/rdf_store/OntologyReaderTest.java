@@ -8,6 +8,8 @@ public class OntologyReaderTest {
 
   @Test
   public void importOntolgy() {
-	  new OntologyReader().importOntolgy(new File("U:\\git\\Homer\\src\\main\\resources\\ontologies\\hsw"));
+//	  new OntologyReader().importOntolgy(new File("U:\\git\\Homer\\src\\main\\resources\\ontologies\\hsw"));
+	  System.out.println(new File(".").getAbsolutePath());
+	  new OntologyReader().importOntolgy(new File("generat"));
   }
 }

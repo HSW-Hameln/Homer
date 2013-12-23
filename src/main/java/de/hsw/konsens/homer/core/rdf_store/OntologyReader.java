@@ -53,7 +53,9 @@ public class OntologyReader {
 					for(int i = 0 ; i < data.getLength() ; i++)
 					{
 						n = data.item(i).getAttributes();
-						connection.add(new File(dir.getAbsolutePath()+System.getProperty("file.separator")+n.getNamedItem("file").getNodeValue()), n.getNamedItem("base").getNodeValue(), RDFFormat.TURTLE,new ValueFactoryImpl().createURI(n.getNamedItem("context").getNodeValue()));
+						String f = dir.getAbsolutePath()+System.getProperty("file.separator")+n.getNamedItem("file").getNodeValue();
+						System.out.println(f);
+						connection.add(new File(f), n.getNamedItem("base").getNodeValue(), RDFFormat.TURTLE,new ValueFactoryImpl().createURI(n.getNamedItem("context").getNodeValue()));
 					}
 						
 					connection.commit();
@@ -76,6 +78,9 @@ public class OntologyReader {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
+			}
+			else {
+				System.err.println("\nNo \"content.xml\" file. :(");
 			}
 		}
 	}

@@ -10,10 +10,10 @@ import de.hsw.konsens.homer.core.searchengine.ElasticsearchNode;
 
 public class ElasticsearchLocalNode implements ElasticsearchNode{
 
-	private Node node =  NodeBuilder.nodeBuilder().settings(ImmutableSettings.settingsBuilder().put("http.enabled", "false")
+	private Node node =  NodeBuilder.nodeBuilder().settings(ImmutableSettings.settingsBuilder().put("http.enabled", "true")
 			.put("multicast.enabled", "false").build()).local(true).node();
 
-//	public ElasticsearchLocalNode() {
+	public ElasticsearchLocalNode() {
 //
 //		final Settings settings = ImmutableSettings.settingsBuilder()
 //				// disable REST-Interface
@@ -21,7 +21,7 @@ public class ElasticsearchLocalNode implements ElasticsearchNode{
 //				// no discovery
 //				.put("multicast.enabled", "false").build();
 //		this.node = NodeBuilder.nodeBuilder().settings(settings).local(true).node();
-//	}
+	}
 
 	public Client client() {
 		return node.client();

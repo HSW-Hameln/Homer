@@ -1,6 +1,8 @@
 package de.hsw.konsens.homer.client;
 
+
 import java.util.List;
+
 
 import de.hsw.konsens.homer.service.HomerService;
 
@@ -11,7 +13,7 @@ public class HomerClientRemote implements HomerClient {
 		return query;
 	}
 	
-	public List<?> search(String query) {
+	public List<String> search(String index ,String query) {
 		return null;
 	}
 	
