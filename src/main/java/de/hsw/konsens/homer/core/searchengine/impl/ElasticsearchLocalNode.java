@@ -9,9 +9,15 @@ import org.elasticsearch.node.NodeBuilder;
 import de.hsw.konsens.homer.core.searchengine.ElasticsearchNode;
 
 public class ElasticsearchLocalNode implements ElasticsearchNode{
-
+	
+	private String path = "tmp/";
+	
 	private Node node =  NodeBuilder.nodeBuilder().settings(ImmutableSettings.settingsBuilder().put("http.enabled", "true")
-			.put("multicast.enabled", "false").build()).local(true).node();
+			.put("multicast.enabled", "false")
+			.put("path.conf", path)
+			.put("path.data", path + "/data")
+			.put("path.work", path + "/work")
+         	.put("path.logs", path + "/logs").build()).local(true).node();
 
 	public ElasticsearchLocalNode() {
 //

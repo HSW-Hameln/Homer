@@ -3,12 +3,10 @@ package de.hsw.konsens.homer.service;
 import de.hsw.konsens.homer.core.parser.HomerParser;
 import de.hsw.konsens.homer.core.rdf_store.SesameRepositoryConnection;
 import de.hsw.konsens.homer.core.searchengine.ElasticsearchNode;
-import de.hsw.konsens.homer.ontology.PluginManager;
-
 public class HomerService {
 	
 	private ElasticsearchNode elasticsearch;
-	private PluginManager pluginManager;
+//	private PluginManager pluginManager;
 	private SesameRepositoryConnection openRDFSesame;
 	private HomerParser parser;
 
@@ -25,12 +23,12 @@ public class HomerService {
 	public void setElasticsearch(ElasticsearchNode elasticsearch) {
 		this.elasticsearch = elasticsearch;
 	}
-	public PluginManager getPluginManager() {
-		return pluginManager;
-	}
-	public void setPluginManager(PluginManager pluginManager) {
-		this.pluginManager = pluginManager;
-	}
+//	public PluginManager getPluginManager() {
+//		return pluginManager;
+//	}
+//	public void setPluginManager(PluginManager pluginManager) {
+//		this.pluginManager = pluginManager;
+//	}
 	public SesameRepositoryConnection getOpenRDFSesame() {
 		return openRDFSesame;
 	}

@@ -6,7 +6,7 @@ mainClassName = "de.hsw.konsens.homer.Homer"
 
 sourceCompatibility = 1.7
 version = '1.0'
-jar {
+jar {	
 	manifest {
 		attributes 'Implementation-Title': 'Gradle Quickstart', 'Implementation-Version': version
 	}
@@ -20,11 +20,7 @@ dependencies {
 		
 			'org.springframework:spring-core:+',
 			'org.springframework:spring-context:+',
-			
-//			'org.osgi:org.osgi.core:+',
-			'org.apache.felix:org.apache.felix.main:+',
-			'org.apache.felix:org.apache.felix.framework:+',
-			
+						
 			'org.openrdf.sesame:sesame-repository-sail:+',
 			'org.openrdf.sesame:sesame-repository-manager:+',
 			'org.openrdf.sesame:sesame-sail-nativerdf:+',
@@ -32,13 +28,9 @@ dependencies {
 			'org.openrdf.sesame:sesame-rio-turtle:2.7.7',
 			
 			'org.elasticsearch:elasticsearch:+',
-			
-			files('..\\HOMERGeneratorInterfaces\\build\\libs\\HOMERGeneratorInterfaces-1.0.jar'),
-			
-//			'org.apache.tika:tika-core:+',
-//			'org.apache.tika:tika-parsers:+',
-			
-//			'xerces:xercesImpl:2.9.1',
+						
+			'org.apache.tika:tika-core:+',
+			'org.apache.tika:tika-parsers:+',
 			
 			
 			'com.fasterxml.jackson.core:jackson-core:2.3.0',

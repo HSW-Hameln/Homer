@@ -42,6 +42,12 @@ public class HomerTest {
 		}
 	}
 	
+	  @Test
+	  public void search() {
+	    HomerClient hc = homer.getClient();
+	    hc.search("data", "müller");
+	  }
+	
 //	@Test(dependsOnMethods = { "getClient" })
 //	public void searchForDocumentsExtended(){
 //		HomerClient client = homer.getClient();

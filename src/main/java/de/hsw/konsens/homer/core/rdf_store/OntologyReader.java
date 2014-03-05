@@ -13,7 +13,7 @@ import org.openrdf.repository.RepositoryException;
 import org.openrdf.rio.RDFFormat;
 import org.openrdf.rio.RDFParseException;
 import org.springframework.beans.BeansException;
-import org.springframework.context.support.FileSystemXmlApplicationContext;
+import org.springframework.context.ApplicationContext;
 import org.w3c.dom.DOMException;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -21,9 +21,11 @@ import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import de.hsw.konsens.homer.Homer;
+
 public class OntologyReader {
 
-	private FileSystemXmlApplicationContext spring = new FileSystemXmlApplicationContext("beans.xml");
+	private ApplicationContext spring = Homer.getSpringContext();
 	
 	public void importOntolgy(File dir){
 		RepositoryConnection connection = null;

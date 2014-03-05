@@ -26,6 +26,10 @@ public class ELCommands {
 		return convertToSearchString(connection.tupleQuery(query));
 	}
 
+	public String expand(String query) throws RepositoryException, MalformedQueryException, QueryEvaluationException {
+		return connection.tupleQuery(query).replace("\n", ",");
+	}
+
 	public SesameRepositoryConnection getConnection() {
 		return connection;
 	}

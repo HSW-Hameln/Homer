@@ -1,7 +1,9 @@
 package de.hsw.konsens.homer.core.rdf_store;
 
-import java.util.List;
+import java.io.IOException;
+import java.util.ArrayList;
 
+import org.elasticsearch.ElasticSearchException;
 import org.elasticsearch.action.ActionFuture;
 import org.elasticsearch.action.admin.indices.create.CreateIndexRequest;
 import org.elasticsearch.action.admin.indices.delete.DeleteIndexRequest;
@@ -10,6 +12,7 @@ import org.elasticsearch.action.admin.indices.exists.indices.IndicesExistsRespon
 import org.elasticsearch.action.admin.indices.flush.FlushRequest;
 import org.elasticsearch.client.AdminClient;
 import org.elasticsearch.client.Client;
+import org.elasticsearch.common.xcontent.XContentFactory;
 import org.openrdf.model.Value;
 import org.openrdf.query.Binding;
 import org.openrdf.query.MalformedQueryException;
@@ -59,6 +62,7 @@ public class SesameRepositoryConnection {
 		if(r.actionGet().isExists())
 			admin.indices().delete(new DeleteIndexRequest("sail")).actionGet();
 		admin.indices().create(new CreateIndexRequest("sail")).actionGet();
+				
 		
 		if(!repository.isInitialized())
 			repository.initialize();
@@ -70,35 +74,47 @@ public class SesameRepositoryConnection {
 
 		TupleQuery tq;
 		TupleQueryResult tqr;
-		String index ;
 		String uri;
 		
 		while(tupleQueryResult.hasNext()) {
 			uri = tupleQueryResult.next().getValue("s").stringValue();
-			query = "SELECT ?p ?o WHERE{<"+uri+"> ?p ?o} ";
+			query = "SELECT ?p WHERE{<"+uri+"> ?p ?o} ";
 			
 			tq = connection.prepareTupleQuery(QueryLanguage.SPARQL, query);
 			tqr = tq.evaluate();
 			
-			index = "{\""+uri+"\":[\"";
-			
-			if(tqr.hasNext())
-				index += trim(tqr.next().getValue("o"));
+		
+			ArrayList<String> index = new ArrayList<>();
 			
 			while(tqr.hasNext())
 			{
-				index += "\",\""+trim(tqr.next().getValue("o"));				
+				index.add(trim(tqr.next().getValue("p")));				
 			}
-			index += "\"]}";
-			c.prepareIndex("sail", "subject").setSource(index).get();
+
+			try {
+				c.prepareIndex("sail", "subject").setSource(XContentFactory.jsonBuilder()
+						.startObject()
+							.field("URI",uri)
+							.array("ATTRIBUTE", index.toArray())
+						.endObject()).get();
+			} catch (ElasticSearchException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 		
 		c.admin().indices().flush(new FlushRequest("sail"));
 
 	}
 	private String trim(Value value) {
+
+		System.out.println(value);
+
 		if(value.toString().charAt(0) == '\"')
-		return value.toString().substring(1,value.toString().length()-1);
+			return value.toString().substring(1,value.toString().length()-1);
 		return value.toString();
 	}
 	public void shutDown() {

@@ -9,17 +9,16 @@ import org.elasticsearch.search.SearchHit;
 import org.openrdf.query.MalformedQueryException;
 import org.openrdf.query.QueryEvaluationException;
 import org.openrdf.repository.RepositoryException;
-import org.springframework.context.support.FileSystemXmlApplicationContext;
+import org.springframework.context.ApplicationContext;
 import org.testng.annotations.Test;
 
 import de.hsw.konsens.homer.core.rdf_store.SesameRepositoryConnection;
 
 
 public class ElasticSearchTest {
-	private FileSystemXmlApplicationContext spring = new FileSystemXmlApplicationContext("beans.xml");
+	private ApplicationContext spring = Homer.getSpringContext();
 
 	public void beforeClass() {
-			spring = new FileSystemXmlApplicationContext("beans.xml");
 			
 		}
 	

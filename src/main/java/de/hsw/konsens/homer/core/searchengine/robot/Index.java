@@ -3,7 +3,8 @@ package de.hsw.konsens.homer.core.searchengine.robot;
 import java.io.File;
 import java.io.IOException;
 
-import org.elasticsearch.action.admin.indices.flush.FlushRequest;
+import org.apache.tika.Tika;
+import org.apache.tika.exception.TikaException;
 import org.elasticsearch.client.Client;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -62,17 +63,19 @@ public class Index {
 			addDir(file);
 		else if(file.isFile())
 		{
-//			Tika tika = new Tika();
-//			try {
-//				c.prepareIndex("data", "content").setSource(new UnstructuredData(file.getCanonicalPath(),tika.parseToString(file)).toString()).get();
+			Tika tika = new Tika();
+			try {
+				String data = tika.parseToString(file);
+//				System.out.println(data);
+				c.prepareIndex("data", "content").setSource(new UnstructuredData("file:///"+file.getCanonicalPath().replace("\\", "/"),data).toString()).get();
 //				c.admin().indices().flush(new FlushRequest("data"));
-//			} catch (IOException e) {
-//				// TODO Auto-generated catch block
-//				e.printStackTrace();
-//			} catch (TikaException e) {
-//				// TODO Auto-generated catch block
-//				e.printStackTrace();
-//			}
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (TikaException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 	}
 

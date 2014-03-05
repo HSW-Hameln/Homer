@@ -1,6 +1,7 @@
 package de.hsw.konsens.homer;
 
-import org.springframework.context.support.FileSystemXmlApplicationContext;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import de.hsw.konsens.homer.client.HomerClient;
 import de.hsw.konsens.homer.client.HomerClientLocal;
@@ -14,7 +15,7 @@ import de.hsw.konsens.homer.service.HomerService;
  */
 public class Homer {
 
-	private FileSystemXmlApplicationContext spring = new FileSystemXmlApplicationContext("beans.xml");
+	private static ClassPathXmlApplicationContext spring = new ClassPathXmlApplicationContext("beans.xml");
 	private HomerService service = null;
 	
 	/**
@@ -47,13 +48,17 @@ public class Homer {
 	public void stop() {
 		service.getElasticsearch().close();
 		service.getOpenRDFSesame().shutDown();
-		service.getPluginManager().shutdown();
+//		service.getPluginManager().shutdown();
 		service = null;
 	}
 
 	public static void main(String[] args) {
 		Homer homer = new Homer();
 		homer.startWebservice();
+	}
+	
+	public static ApplicationContext getSpringContext(){
+		return spring;
 	}
 
 }
