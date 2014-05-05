@@ -1,0 +1,5 @@
+rootProject.name = 'HOMER'
+
+include ':Hcore'
+include ':Hserver'
+include ':Hwar'
