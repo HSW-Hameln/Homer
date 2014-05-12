@@ -5,48 +5,41 @@ sourceCompatibility = 1.8
 group = 'de.hsw.konsens.homer'
 version = '1.0'
 
-repositories {
-    mavenLocal()
-    mavenCentral()
-}
-
 dependencies {
     compile(
-            'commons-io:commons-io:2.4',
-
+            /**
+             * Spring framework for Annotations
+             */
             'org.springframework:spring-core:+',
             'org.springframework:spring-context:+',
 
-            'org.apache.jena:jena-jdbc-driver-remote:1.0.1',
+            /**
+             * Jena JDBC driver for SPARQL endpoints
+             */
+            'org.apache.jena:jena-jdbc-driver-remote:+',
 
+            /**
+             * Elasticsearch for connection via TransportClient
+             */
             'org.elasticsearch:elasticsearch:+',
 
-            //ToDO: Reduzieren aufs Nötigste...
-            'javax.ws.rs:jsr311-api:1.1.1',
-            'javax.ws.rs:javax.ws.rs-api:2.0',
-
-            'com.sun.jersey:jersey-client:1.18.1',
-            'com.sun.jersey:jersey-bundle:1.18.1',
-            'com.sun.jersey:jersey-server:1.18.1',
-
-
-
-/*          'org.openrdf.sesame:sesame-repository-sail:+',
-            'org.openrdf.sesame:sesame-repository-manager:+',
-            'org.openrdf.sesame:sesame-sail-nativerdf:+',
-            'org.openrdf.sesame:sesame-repository-sparql:+',
-            'org.openrdf.sesame:sesame-rio-turtle:2.7.7',
-
-
-
-            'org.apache.tika:tika-core:+',
-            'org.apache.tika:tika-parsers:+',*/
+            /**
+             * REST client for Apache Stanbol connection
+             */
+            'com.sun.jersey:jersey-client:+',
+            'com.sun.jersey:jersey-bundle:+',
     )
     testCompile(
+            /**
+             * TestNG for testing
+             */
             'org.testng:testng:+',
 
     )
     test {
+        /**
+         * Using TestNG as testframework
+         */
         useTestNG()
     }
 }

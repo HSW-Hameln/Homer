@@ -10,6 +10,9 @@ import org.testng.annotations.Test;
 public class HOMERExpressionLanguageTest {
     @Test
     public void springTest(){
+
+        Object o = new Object[5][8];
+
         AnnotationConfigApplicationContext ctx =
                 new AnnotationConfigApplicationContext();
 
@@ -19,5 +22,7 @@ public class HOMERExpressionLanguageTest {
         HOMERExpressionLanguage parser = ctx.getBean(HOMERExpressionLanguage.class);
 
         Assert.assertEquals("3",parser.parse("${1+2}"));
+
+        System.out.print(parser.parse("${sparql('CONSTRUCT { <dummy:status> <dummy:test> \"OK\"  } WHERE {} ')}"));
     }
 }

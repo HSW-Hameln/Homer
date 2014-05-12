@@ -39,7 +39,7 @@ public class HOMERServer {
                 .setName("Hserver");
 
         HOMERController controller = new HOMERController();
-        server.uri("/api/search", controller).action("search", HttpMethod.GET);
+        server.uri("/api/search", controller).action("search", HttpMethod.POST);
 
         server.bind();
         server.awaitShutdown();
