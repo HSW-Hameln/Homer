@@ -51,6 +51,12 @@ public class HFuseki extends HAbstractRemoteConnection {
 
     @Override
     public boolean clear() {
+        try {
+            stmt = conn.createStatement();
+            ResultSet result = stmt.executeQuery("CLEAR ALL");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
         return false;
     }
 

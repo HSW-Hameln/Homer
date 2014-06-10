@@ -8,6 +8,9 @@ import de.hsw.konsens.homer.da.triplestore.fuseki.HFuseki;
  * Created by mielke on 01.04.2014.
  */
 public class HOMERAdmin {
+    /**
+     * Static helper method. The prepareEnvironment() method initializes the data sources. ATTENTION: ALL DATA WILL BE LOST.
+     */
     static void prepareEnvironment(){
         HConnection elsasticsearch = new HElasticsearch();
         HConnection fuseki = new HFuseki();
@@ -24,10 +27,5 @@ public class HOMERAdmin {
             fuseki.clear();
             fuseki.insert();
         }
-
-//        if (stanbol.isConnected())
-//        {
-//
-//        }
     }
 }
