@@ -15,4 +15,7 @@ public class HOMERConfig {
     public static final String URL_SPARQL_ENDPOINT = URL_SPARQL_HOST + URL_SPARQL_REPO;
 
     public static final String URL_STANBOL_ENDPOINT = "http://localhost:8080/enhancer";
+
+    public static final String ELASTICSEARCH_HIGHLIGHT_PRE = "<highlight>";
+    public static final String ELASTICSEARCH_HIGHLIGHT_POST = "</highlight>";
 }

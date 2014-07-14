@@ -10,9 +10,11 @@ import javax.ws.rs.core.MediaType;
 
 /**
  * Created by mielke on 01.04.2014.
+ * <p>
+ * This class should be a connection to an Apache Stanbol instance. At the moment Stanbol is not used by the Framework.
  */
-public class HStanbol extends HAbstractRemoteConnection{
-    public HStanbol(){
+public class HStanbol extends HAbstractRemoteConnection {
+    public HStanbol() {
         WebResource res = Client.create().resource(HOMERConfig.URL_STANBOL_ENDPOINT);
         String ret = res.accept(MediaType.APPLICATION_JSON)
                 .header(HttpHeaders.AUTHORIZATION, "Basic YWRtaW46YWRtaW4=")

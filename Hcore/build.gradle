@@ -28,6 +28,18 @@ dependencies {
              */
             'com.sun.jersey:jersey-client:+',
             'com.sun.jersey:jersey-bundle:+',
+
+            /**
+             * Apache Tika for extraction
+             */
+            'org.apache.tika:tika-core:+',
+            'org.apache.tika:tika-parsers:+',
+
+            /**
+             * Jackson
+             */
+            'com.fasterxml.jackson.core:jackson-core:+',
+            'com.fasterxml.jackson.core:jackson-databind:+',
     )
     testCompile(
             /**

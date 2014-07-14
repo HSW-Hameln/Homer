@@ -6,17 +6,19 @@ import java.sql.*;
 
 /**
  * Created by mielke on 01.04.2014.
- *
- * Configuration
- *      SPARQL Endpoint Host:PORT
- *      dataset
+ * <p>
+ * Connection to a SPARQL Endpoint.
  */
 public class HFuseki extends HAbstractRemoteConnection {
 
     private Connection conn = null;
     private ResultSet rs = null;
     private Statement stmt = null;
-    public HFuseki(){
+
+    /**
+     * Default constructor opens JDBC SPARQL connection.
+     */
+    public HFuseki() {
         try {
             Class.forName("org.apache.jena.jdbc.remote.RemoteEndpointDriver");
             conn = DriverManager.getConnection("jdbc:jena:remote:query=http://localhost:3030/HOMER/query&update=http://localhost:3030/HOMER/update");
@@ -27,7 +29,12 @@ public class HFuseki extends HAbstractRemoteConnection {
         }
     }
 
-    public ResultSet query(String query){
+    /**
+     * @param query SPARQL Query.
+     * @return Result set.
+     * @see java.sql.ResultSet
+     */
+    public ResultSet query(String query) {
 
         try {
             stmt = conn.createStatement();
@@ -39,7 +46,10 @@ public class HFuseki extends HAbstractRemoteConnection {
         return rs;
     }
 
-    public void close(){
+    /**
+     * Closes the JDBC connection.
+     */
+    public void close() {
         try {
             rs.close();
             stmt.close();
@@ -49,6 +59,11 @@ public class HFuseki extends HAbstractRemoteConnection {
         }
     }
 
+    /**
+     * Removes all data from the repository.
+     *
+     * @return FALSE. Not implemented.
+     */
     @Override
     public boolean clear() {
         try {
@@ -60,11 +75,22 @@ public class HFuseki extends HAbstractRemoteConnection {
         return false;
     }
 
+    /**
+     * NOT IMPLEMENTED.
+     *
+     * @param rdf
+     * @return
+     */
     @Override
     public boolean insert(String... rdf) {
         return false;
     }
 
+    /**
+     * Tests if the SPARQL endpoint is available and queries can be executed.
+     *
+     * @return
+     */
     @Override
     public boolean isConnected() {
         try {

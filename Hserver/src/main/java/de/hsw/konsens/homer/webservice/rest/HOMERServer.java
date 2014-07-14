@@ -32,16 +32,17 @@ public class HOMERServer {
 
     /**
      * Method that starts the Server.
+     * @param port
      */
-    public void start(){
+    public void start(int port) {
 
         RestExpress server = new RestExpress()
                 .setName("Hserver");
 
         HOMERController controller = new HOMERController();
-        server.uri("/api/search", controller).action("search", HttpMethod.POST);
+        server.uri("/homer/search", controller).action("search", HttpMethod.POST);
 
-        server.bind();
+        server.bind(port);
         server.awaitShutdown();
     }
 

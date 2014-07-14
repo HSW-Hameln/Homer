@@ -1,6 +1,5 @@
 package de.hsw.konsens.homer.da.enhancer;
 
-import de.hsw.konsens.homer.da.enhancer.stanbol.HStanbol;
 import org.testng.annotations.Test;
 
 /**
@@ -8,7 +7,7 @@ import org.testng.annotations.Test;
  */
 public class HStanbolTest {
     @Test
-    public void connectionTest(){
-        new HStanbol();
+    public void connectionTest() {
+        //new HStanbol();
     }
 }
