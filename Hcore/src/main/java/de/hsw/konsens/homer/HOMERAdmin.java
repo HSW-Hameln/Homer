@@ -27,5 +27,8 @@ public class HOMERAdmin {
             fuseki.clear();
             fuseki.insert();
         }
+
+        elsasticsearch.close();
+        //fuseki.close();
     }
 }

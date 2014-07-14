@@ -1,5 +1,6 @@
 package de.hsw.konsens.homer.da.triplestore.fuseki;
 
+import de.hsw.konsens.homer.HOMERConfig;
 import de.hsw.konsens.homer.da.HAbstractRemoteConnection;
 
 import java.sql.*;
@@ -21,7 +22,7 @@ public class HFuseki extends HAbstractRemoteConnection {
     public HFuseki() {
         try {
             Class.forName("org.apache.jena.jdbc.remote.RemoteEndpointDriver");
-            conn = DriverManager.getConnection("jdbc:jena:remote:query=http://localhost:3030/HOMER/query&update=http://localhost:3030/HOMER/update");
+            conn = DriverManager.getConnection("jdbc:jena:remote:query=" + HOMERConfig.URL_SPARQL_ENDPOINT + "/query");//&update="+ HOMERConfig.URL_SPARQL_ENDPOINT +"/update");
         } catch (SQLException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {

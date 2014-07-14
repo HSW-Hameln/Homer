@@ -12,7 +12,7 @@ import java.io.IOException;
  * Created by mielke on 11.06.2014.
  */
 public class HOMERUtilities {
-    private static HElasticsearch elasticsearch = new HElasticsearch();
+    private static HElasticsearch elasticsearch = null;
 
     public static void importOntology(File ontology) {
 
@@ -23,8 +23,11 @@ public class HOMERUtilities {
     }
 
     public static void index(File file) throws IOException {
+        if (elasticsearch == null)
+            elasticsearch = new HElasticsearch();
         indexRecursive(file);
         elasticsearch.close();
+        elasticsearch = null;
     }
 
     private static void indexRecursive(File file) {

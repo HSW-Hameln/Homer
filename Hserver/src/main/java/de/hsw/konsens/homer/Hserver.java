@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  * Created by mielke on 01.04.2014.
- *
+ * <p>
  * This Class is the facade for the Hserver framework and contains the main() method for the Standalone service.
  */
 public class Hserver {
@@ -19,13 +19,13 @@ public class Hserver {
     /**
      * Private constructor
      */
-    private Hserver(){}
+    private Hserver() {
+    }
 
     /**
-     *
      * @return HOMERServer Singleton.
      */
-    public static Hserver getInstance(){
+    public static Hserver getInstance() {
         return instance;
     }
 
@@ -48,17 +48,19 @@ public class Hserver {
             System.exit(4);
         }
 
+        if (o.isWipe())
+            //ToDo: wipe data.
+            ;
 
         // Start Server
         HOMERServer.getInstance().start(o.getPort());
     }
 
     /**
-     *
-     * @param HOMERQuery
+     * @param HOMERQuery A valid Query as String.
      * @return Returns a Map that contains the search results. As well as some information about the expansion and the search process.
      */
-    public Map<String,String> search(String HOMERQuery){
+    public Map<String, String> search(String HOMERQuery) {
         return new HOMER().search(HOMERQuery);
     }
 

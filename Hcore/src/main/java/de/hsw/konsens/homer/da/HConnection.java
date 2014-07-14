@@ -14,6 +14,11 @@ public interface HConnection {
     public boolean clear();
 
     /**
+     * This method closes the connection.
+     */
+    public void close();
+
+    /**
      *
      * @param data The type of the data changes depending on the type of the data source.
      * @return Status of the operation.

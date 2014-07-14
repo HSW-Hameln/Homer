@@ -31,6 +31,11 @@ public class HStanbol extends HAbstractRemoteConnection {
     }
 
     @Override
+    public void close() {
+
+    }
+
+    @Override
     public boolean insert(String... data) {
         return false;
     }

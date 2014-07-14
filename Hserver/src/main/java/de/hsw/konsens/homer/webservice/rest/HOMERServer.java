@@ -6,7 +6,7 @@ import org.restexpress.RestExpress;
 
 /**
  * Created by mielke on 01.04.2014.
- *
+ * <p>
  * HOMERServer is a singleton that controls the RESTful webservice. For building the server RestExpress is used.
  * You can find RestExpress at https://github.com/RestExpress/RestExpress.
  */
@@ -20,19 +20,20 @@ public class HOMERServer {
     /**
      * Private constructor
      */
-    private HOMERServer(){}
+    private HOMERServer() {
+    }
 
     /**
-     *
      * @return HOMERServer Singleton.
      */
-    public static HOMERServer getInstance(){
+    public static HOMERServer getInstance() {
         return instance;
     }
 
     /**
      * Method that starts the Server.
-     * @param port
+     *
+     * @param port Network Port.
      */
     public void start(int port) {
 
